@@ -95,6 +95,7 @@
     </div>
     <div>
         <a href="{{ route('projects.create') }}"><button class="btn btn-secondary fw-semibold mx-3">&plus; Add New Project</button></a>
+        <a href="{{ route('projects.index') }}"><button class="btn btn-primary fw-semibold mx-3">Go to Index</button></a>
     </div>
 </div>
 <script>

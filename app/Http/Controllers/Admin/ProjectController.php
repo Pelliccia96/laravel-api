@@ -25,7 +25,7 @@ class ProjectController extends Controller
         
         $users = User::all();
 
-        $projects = Project::all();
+        $projects = Project::paginate();
 
         $types = Type::all();
 

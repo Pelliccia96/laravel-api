@@ -5,6 +5,7 @@
 <div class="container">
     <div>
         <a class="btn btn-primary my-4" href="{{route('projects.create')}}">Create</a>
+        <a class="btn btn-secondary fw-semibold mx-4" href="http://127.0.0.1:8000/api/projects">JSON</a>
     </div>
     <div class="row row-cols-1 row-cols-md-4 g-4">
         @foreach ($projects as $project)

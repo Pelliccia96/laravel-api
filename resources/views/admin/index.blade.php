@@ -33,5 +33,8 @@
     <div>
         <a class="btn btn-dark my-4" href="{{route('dashboard')}}">Back to Dashboard</a>
     </div>
+    <div>
+        {{ $projects->links() }}
+    </div>
 </div>
 @endsection
